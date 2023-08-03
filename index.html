@@ -9,23 +9,52 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <title>Anastasia Chatzikonstantinou CV</title>
   </head>
   <body>
-    <h1>Anastasia Chatzikonstantinou</h1>
-      <img src="./assets/cv-image.png" class="portrait rounded-circle" alt="Portrait image." />
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand mt-2 mb-2" href="#">CV</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end mt-3 mb-2" id="navbarSupportedContent">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    
     <div class="container text-center">
-        <div class="row align-items-start">
-            <div class="col">
-              <p>Greater Malmö Metropolitan Area</p>
+      <h1>Anastasia Chatzikonstantinou</h1>
+      <img src="./assets/cv-image.png" class="portrait rounded-circle my-4 border-primary border-5 border" alt="Portrait image." />
+        <div class="row align-items-center">
+            <div class="col-sm-4">
+              <div class="card border-0 my-3 align-items-center">
+              <div class="feature-icon bg-primary bg-gradient px-2 my-2 rounded-3">
+              <svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg></div>
+              <p>Sweden</p>
             </div>
-            <div class="col">
-              <p>B Driver's License</p>
             </div>
-            <div class="col">
+            <div class="col-sm-4">
+              <div class="card border-0 my-3 align-items-center"><div class="feature-icon bg-primary bg-gradient px-2 my-3 rounded-3"><svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="white" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+              </svg></div>
+              <p>B Driver's License</p></div>
+              
+            </div>
+            <div class="col-sm-4">
                 <button
-                class="btn btn-primary"
+                class="btn btn-primary my-4"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasScrolling"
@@ -35,10 +64,6 @@
             </div>
           </div>
       
-      
-      
-      
-      <hr />
       <div
         class="offcanvas offcanvas-start"
         data-bs-scroll="true"
@@ -49,7 +74,7 @@
       >
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
-            Offcanvas with body scrolling
+            Languages and Computer Skills
           </h5>
           <button
             type="button"
@@ -59,6 +84,7 @@
           ></button>
         </div>
         <div class="offcanvas-body">
+          
           <p>
             <h5>Languages</h5>
             <ul>
@@ -67,7 +93,6 @@
               <li>Swedish</li>
               <li>German</li>
             </ul>
-            <hr />
             <h5>Computer Skills</h5>
             <ul>
               <li>Adobe Creative Suite ⭐️⭐️⭐️⭐️⭐️</li>
@@ -81,7 +106,7 @@
               <li>Figma ⭐️⭐️⭐️</li>
               <li>HTML ⭐️⭐️⭐️</li>
               <li>CSS ⭐️⭐️⭐️</li>
-              <li>Javascript ⭐️⭐️</li>
+              <li>Javascript ⭐️⭐️⭐️</li>
             </ul>
           </p>
         </div>
@@ -92,7 +117,7 @@
       <h3>Advanced Architectural Design - MArch</h3>
       <p>2020 - 2022</p>
       <div class="accordion" id="accordionLTH">
-        <div class="accordion-item">
+        <div class="accordion-item m-5">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Details
@@ -120,7 +145,7 @@
       <p>2011 - 2019</p>
       
       <div class="accordion" id="accordionAUTH">
-        <div class="accordion-item">
+        <div class="accordion-item m-5">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
               Details
@@ -145,13 +170,13 @@
             </div>
           </div>
         </div>
-      <hr />
+
       <h2>Work Experience</h2>
       <h3>Founder</h3>
       <h3>Green by Design Studio</h3>
       <p>Current occupation</p>
       <div class="accordion" id="accordionVentureLab">
-        <div class="accordion-item">
+        <div class="accordion-item m-5">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
               Details
@@ -182,7 +207,7 @@
       <h3>Ioannis Chatzikonstantinou Architect</h3>
       <p>2021 - 2022</p>
       <div class="accordion" id="accordionIntern">
-      <div class="accordion-item">
+      <div class="accordion-item m-5">
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             Details
@@ -205,7 +230,7 @@
       <h3>Freelancing Visual Artist</h3>
       <p>2018 - 2020</p>
       <div class="accordion" id="accordionArtist">
-      <div class="accordion-item">
+      <div class="accordion-item m-5">
         <h2 class="accordion-header" id="headingFive">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             Details
@@ -226,7 +251,7 @@
       <h3>Graduate Teaching Assistant</h3>
       <p>2019</p>
       <div class="accordion" id="accordionDanube">
-      <div class="accordion-item">
+      <div class="accordion-item m-5">
         <h2 class="accordion-header" id="headingSix">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             Details
@@ -249,7 +274,7 @@
         </div>
       </div>
     </div>
-      <hr />
+
       <h2>Publications</h2>
       <h3>
         Rapid Prototyping in Acoustics: Designing Sound Diffusive Panels with
@@ -258,7 +283,7 @@
       <p>Sociedade Portuguesa de Acústica (SPA)</p>
       <p>2021</p>
       <p>ISBN 978-989-53387-0-2</p>
-      <a class="btn btn-primary" data-bs-toggle="collapse" href="#abstractEuronoise" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <a class="btn btn-primary m-4" data-bs-toggle="collapse" href="#abstractEuronoise" role="button" aria-expanded="false" aria-controls="collapseExample">
         Abstract
       </a>
       <div class="collapse" id="abstractEuronoise">
@@ -291,7 +316,7 @@
       <p>Editura universitară „Ion Mincu”</p>
       <p>2020</p>
       <p>ISBN 978-606-638-217-5</p>
-      <a class="btn btn-primary" data-bs-toggle="collapse" href="#abstractDanube" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <a class="btn btn-primary m-3" data-bs-toggle="collapse" href="#abstractDanube" role="button" aria-expanded="false" aria-controls="collapseExample">
         Abstract
       </a>
       <div class="collapse" id="abstractDanube">
@@ -314,7 +339,6 @@
         </div>
       </div>
       
-      
       <hr />
       <p>© Anastasia Chatzikonstantinou. All rights reserved.</p>
     </div>
@@ -323,5 +347,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
